@@ -1,6 +1,6 @@
 # JSON Parser
 
-A simple JSON parser written in Go. This project implements a lexer and parser algorithm for parsing JSON data. It reads a JSON file, parses it, and prints the JSON content as a string.
+A simple JSON parser written in Go. This project implements a lexer and parser for parsing JSON data. It reads a JSON file, parses it, and prints the JSON content as a string.
 
 ## Installation
 
