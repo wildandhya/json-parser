@@ -111,11 +111,10 @@ func (p *Parser) ParseValue() (interface{}, error) {
 	token := p.tokens[0]
 	switch token.Type {
 	case TokenString:
-		p.tokens = p.tokens[1:] // Consume the token
+		p.tokens = p.tokens[1:] 
 		return token.Value, nil
 	case TokenNumber:
-		p.tokens = p.tokens[1:] // Consume the token
-		// Convert string to a number (int, float64, etc.) based on your needs
+		p.tokens = p.tokens[1:] 
 		return token.Value, nil
 	case TokenBoolean:
 		p.tokens = p.tokens[1:] // Consume the token
