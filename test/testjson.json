@@ -1,0 +1,11 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "isActive": true,
+    "tags": ["golang", "json", "parser"],
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown"
+    }
+  }
+  
